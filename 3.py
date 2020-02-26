@@ -5,8 +5,8 @@
 import requests
 head ='https://resource.hle.com.tw/Books/BooksResource/'
 end  = ').pdf'
-name ='02_選修物理(上)互動式教學講義_CH1(108f'
-number = 100000
+name ='02_選修生物(下)互動式教學講義_第8章 動物的排泄(108f'
+number = 810000
 url = head + name + str(number) + end
 res = requests.get(url)
 response = res.status_code
