@@ -19,4 +19,6 @@ while response != 200 :
     url = head + name + str(number) + end
     res = requests.get(url)
     response = res.status_code
+    if number > 1000000:
+        break
 print (url)
